@@ -1,0 +1,8 @@
+name: InfinityGauntlet
+version: 1.0
+main: me.aanay.infinity.InfinityGauntlet
+api-version: 1.21
+
+commands:
+  gauntlet:
+    description: Open gauntlet GUI / give stones
