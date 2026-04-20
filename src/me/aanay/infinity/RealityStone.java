@@ -9,7 +9,7 @@ public class RealityStone {
 
         p.getWorld().setTime(18000);
 
-        p.getWorld().spawnParticle(Particle.SPELL_WITCH, p.getLocation(), 100);
+        p.getWorld().spawnParticle(Particle.WITCH, p.getLocation(), 100);
         p.getWorld().playSound(p.getLocation(), Sound.ENTITY_WITHER_SPAWN, 1, 1);
     }
 }
