@@ -14,6 +14,6 @@ public class PowerStone {
         }
 
         p.getWorld().strikeLightning(p.getLocation());
-        p.getWorld().spawnParticle(Particle.EXPLOSION_LARGE, p.getLocation(), 5);
+        p.getWorld().spawnParticle(Particle.EXPLOSION, p.getLocation(), 5);
     }
 }
